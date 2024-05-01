@@ -291,6 +291,8 @@ text-decoration: underline;
 /*Fin Contactanos*/
 
 /*Media trabajos*/
+
+/*1000px*/
 @media (max-width: 1000px){
     .imagenes-trabajos{
         flex-direction: column;
@@ -356,6 +358,9 @@ text-decoration: underline;
         margin-left: 180px;
     }
 }
+/*fin 1000px*/
+
+/*800px*/
 @media (max-width: 800px){
 .imagenes-trabajos{
     flex-direction: column;
@@ -409,6 +414,66 @@ text-decoration: underline;
             
         }
 }
+/*fin 800px*/
+
+/*700px*/
+
+@media (max-width: 700px){
+    .imagenes-trabajos{
+        flex-direction: column;
+    }
+    .cont-titulo{
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .img-trabajos1{
+        width: 370px;
+        height: 350px;
+        border: 2px solid black;
+        
+    }
+}
+
+@media (max-width: 700px){
+    .imagenes-trabajos2{
+        flex-direction: column;
+    }
+
+    .cont-titulo2{
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .img-trabajos2{
+        width: 370px;
+        height: 350px;
+        border: 2px solid black;
+        
+    }
+}
+
+@media (max-width: 700px){
+    .imagenes-trabajos{
+        flex-direction: column;
+    }
+
+    .cont-titulo3{
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .img-trabajos3{
+        width: 370px;
+        height: 350px;
+        border: 2px solid black;
+        
+    }
+}
+
+/*fin 700px*/
+
+
 /*fin media trabajos*/
 
 
